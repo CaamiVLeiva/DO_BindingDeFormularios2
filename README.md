@@ -4,9 +4,32 @@ Este proyecto es una aplicación Vue.js que permite a los usuarios ingresar dato
 
 ## Estructura del Proyecto
 
+```sh
+bindingdeformularios2/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── FormularioIngreso.vue
+│   │   └── VistaPrevia.vue
+│   ├── App.vue
+│   └── main.js
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
 - **App.vue**: Componente principal que integra el formulario y la vista previa.
 - **FormularioIngreso.vue**: Componente del formulario para ingresar datos.
 - **VistaPrevia.vue**: Componente para mostrar una vista previa de los datos ingresados.
+
+## Tecnologías Utilizadas
+- **Vue.js**: Framework progresivo para construir interfaces de usuario.
+- **Bootstrap**: Framework de CSS para una interfaz moderna y responsiva.
+- **Vite**: Herramienta de construcción rápida y moderna para aplicaciones web.
+- **ESLint y Prettier**: Herramientas para mantener un código limpio y consistente.
 
 ## Recommended IDE Setup
 
